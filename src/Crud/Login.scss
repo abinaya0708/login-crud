@@ -34,6 +34,7 @@
                 .card2{
                     // width:60%;
                     margin:auto;
+
                     form{
                         padding:20px;
                         background-color: #fff;
@@ -122,18 +123,14 @@
 }
 
 @media(min-width:0px){
-    .home-page{
-        
     .login-page{
         .card{
             width:100%
         }
     }
-    }
     
 }
 @media(min-width:320px){
-    .home-page{
     .login-page{
         .col{
             width:90%
@@ -142,11 +139,9 @@
             width: 80%;
         }
     } 
-    }
 }
 
 @media(min-width:720px){
-    .home-page{
     .login-page{
         .row{
             display: flex;
@@ -158,12 +153,10 @@
             width: 80%;
         }
     }
-    }
     
 }
 
 @media(min-width:960px){
-    .home-page{
     .login-page{
         .row{
             display: flex;
@@ -174,7 +167,6 @@
         .card2{
             width: 60%;
         }
-    }
     }
     
 }
