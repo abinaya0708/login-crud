@@ -88,6 +88,7 @@
 
 
 @media(min-width:0px){
+    .home-page{
     form{
         width:90%;
     }
@@ -100,7 +101,9 @@
     
     }
 }
+}
 @media(min-width:320px){
+    .home-page{
     form{
         width:90%;
     }
@@ -111,8 +114,10 @@
             width:100%;
         }
 }
-}
+
+    }}
 @media(min-width:720px){
+    .home-page{
     form{
         width:90%;
     }
@@ -122,19 +127,22 @@
         .card-col{
             width:50%;
         }
-    
+    }
 }
 }
 @media(min-width:960px){
-    form{
-        width:30%;
-    }
-    .card-row{
-        display: flex;
-        flex-wrap: wrap;
-        .card-col{
-            width:33.33%;
+    .home-page{
+        form{
+            width:30%;
         }
+        .card-row{
+            display: flex;
+            flex-wrap: wrap;
+            .card-col{
+                width:33.33%;
+            }
+        
+    }
+    }
     
-}
 }
